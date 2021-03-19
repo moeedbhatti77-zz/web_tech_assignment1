@@ -1,0 +1,234 @@
+.section01 {
+  height: 70px;
+  width: 100%;
+}
+.header-image {
+  height: 250px;
+
+  padding-left: 230px;
+  padding-right: 200px;
+  padding-top: 20px;
+}
+.taskbar {
+  background: rgb(194, 188, 188);
+  height: 60px;
+  width: auto;
+}
+.taskbar ul li {
+  display: inline-block;
+  position: relative;
+  list-style-type: none;
+}
+.taskbar ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+
+  line-height: 50px;
+  width: 190px;
+}
+.taskbar ul li a:hover {
+  background: white;
+}
+.taskbar ul ul {
+  position: absolute;
+  display: none;
+  text-decoration: none;
+  font-size: 12px;
+}
+.taskbar ul li:hover > ul {
+  display: block;
+}
+.taskbar ul ul li:hover > ul {
+  display: block;
+}
+.taskbar ul ul li {
+  background: white;
+}
+.taskbar ul ul ul li {
+  background: white;
+  position: relative;
+  top: -60px;
+  left: 130px;
+}
+.section02 {
+  background-color: aqua;
+  height: 1000px;
+  width: 1400px;
+}
+.donate-image {
+  height: 200px;
+  width: 550px;
+  padding-left: 30px;
+}
+
+.nav_bar {
+  /*position: fixed;*/
+  background: white;
+  height: 500px;
+  width: 250px;
+  float: left;
+  top: 125px;
+
+  padding: 10px;
+}
+.nav_bar h1 {
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+.nav_bar ul li {
+  font-size: 12px;
+  list-style-type: none;
+}
+.nav_bar a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 50px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-top: 1px solid lightblue;
+  transition: 0.5s;
+}
+.nav_bar a:hover {
+  padding-left: 70px;
+}
+.nav_bar a i {
+  margin-right: 15px;
+}
+.nav-dashboard {
+  width: 1000px;
+}
+
+.content {
+  display: inline-block;
+  float: right;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+.btn {
+  height: 35px;
+  width: 100px;
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid rgb(46, 45, 45);
+}
+.content h1 {
+  height: 50px;
+  text-align: left;
+}
+.content p {
+  font-size: 16px;
+}
+.first-div {
+  margin-left: 300px;
+
+  width: 700px;
+
+  height: 3000px;
+}
+.div-two {
+  padding: 50px;
+  width: 680px;
+  height: 700px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+.full {
+  height: 3600px;
+}
+#ft {
+  margin-bottom: 50px;
+  height: 5px;
+  width: 700px;
+  margin-left: 280px;
+  margin-right: 300px;
+  background-color: rgb(114, 112, 112);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
+}
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: white;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #535152;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: black;
+
+  font-weight: 300;
+  color: black;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: black;
+  padding-left: 8px;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
